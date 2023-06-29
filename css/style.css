@@ -1,0 +1,145 @@
+body{
+    font: 15px arial, helvetica, sans-serif;
+    background-color: rgb(239, 239, 239);
+}
+.wrapper{
+    margin: auto;
+    width: 90vw;
+    min-height: 100vw;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}
+
+.icon-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    margin: 30px ;
+    padding: 20px;
+    background-color: #a78766;
+    border-radius: 15px;
+    
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #a4b9c0;
+    border-radius: 50%;
+    stroke: black;
+}
+
+.icon{
+    position: relative;
+}
+
+.mirar-carrito{
+    position: relative;
+    padding-bottom: 70px;
+    padding-right: 20px;
+}
+
+.mirar-carrito button{
+    width: 100%;
+    height: 30px;
+    background-color: #a78766;
+    border-radius: 10px;
+    color: black;
+}
+
+.mirar-carrito:hover{
+    transform: scale(1.2);
+}
+
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+
+.card{
+ width: 20%;
+ display: inline-block;
+ margin: 20px;
+ height: 350px;
+ transition: all .5s;
+}
+
+.info{
+    border-radius: 10px;
+    background-color: #a4b9c0;
+    padding: 15px 30px;
+}
+
+.info input{
+    background-color: #a78766;
+    color: black;
+    border: #a78766;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+.info:hover{
+    box-shadow: 0 10px 20px grey;
+}
+
+ .card-image{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+ }
+
+ .card:hover{
+    transform: scale(1.2);
+ }
+
+ .marcas{
+
+    margin: 30px;
+    text-align: center;
+    list-style: none;
+
+ }
+
+ .secciones a:hover{
+    color: #a78766;
+ }
+
+.secciones{
+    font-size: 30px;
+    margin: 10px;
+    background-color: #a4b9c0;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;    
+}
+
+.marcas:hover{
+    color: #a78766;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
